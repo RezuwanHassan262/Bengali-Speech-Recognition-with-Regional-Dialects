@@ -12,4 +12,4 @@ This later checkpoint had speech data from 12 districts, Which are shown below,
 
 The deployment of the model on HuggingFace Spaces can be found [here](https://huggingface.co/spaces/Rezuwan/Regional_Speech_ASR).
 
-![ASR HF space screenshot](https://raw.githubusercontent.com/RezuwanHassan262/Bengali-Speech-Recognition-with-Regional-Dialects/main/images/1.jpg)
+![ASR HF space screenshot](https://raw.githubusercontent.com/RezuwanHassan262/Bengali-Speech-Recognition-with-Regional-Dialects/main/images/hf_screenshot.jpg)
