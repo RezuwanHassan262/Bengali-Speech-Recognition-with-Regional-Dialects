@@ -1,6 +1,6 @@
 # Bengali-Speech-Recognition-with-Regional-Dialects
 
-**Regional-Speech** is an extensive **Bangla Speech Recognition Dataset** that enables benchmarking **Automatic Speech Recognition (ASR)** models under regional dialectal variations. This dataset captures spontaneous speech data from various regions across **Bangladesh**, ensuring diversity in phonetics, lexicon, and prosody. This repo has all the codes and relevant files/resources behind the development of the regional speech dataset. This is an ongoing project and this dataset checkpoint had speech data from 12 districts, Which are shown below,
+**Regional-Speech** is an extensive **Bangla Speech Recognition Dataset** that enables benchmarking **Automatic Speech Recognition (ASR)** models under regional dialectal variations. This dataset captures spontaneous speech data from various regions across **Bangladesh**, ensuring diversity in phonetics, lexicon, and prosody. This repo has all the codes and relevant files/resources behind the development of the regional speech dataset. To compare the Bengali speech with regional dialects with standard Bengali speech, we utilized the same amount of data samples from the [OOD-Speech: A Large Bengali Speech Recognition Dataset for Out-of-Distribution Benchmarking](https://arxiv.org/abs/2305.09688) speech corpus referring as **OOD** from hereafter.
 
 ---
 
@@ -20,6 +20,9 @@
 - Diverse acoustic environments (indoor/outdoor recordings)
 - Transcriptions validated by native dialect speakers and linguistic experts
 - Rich metadata including regional statistics and linguistic features
+
+
+This is an ongoing project and this dataset checkpoint had speech data from 12 districts, Which are shown below,
 
 <img src="https://github.com/user-attachments/assets/2f64606d-ebae-4dfc-beb0-740bb2d32b82" alt="District Coverage Map" width="500"/>
 <p><i>Map showing the districts covered in the Regional-Speech dataset</i></p>
