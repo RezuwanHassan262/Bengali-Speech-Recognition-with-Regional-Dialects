@@ -366,6 +366,8 @@ I finetuned another OpenAI's Whisper model using another advanced checkpoint fro
 
 ### Key Performance Insights
 
+![model performance](https://raw.githubusercontent.com/RezuwanHassan262/Bengali-Speech-Recognition-with-Regional-Dialects/main/images/radar_plots/model_wer_cer.png)
+
 1. **Best Overall Model**: PX12 achieved the lowest error rates (WER: 0.725, CER: 0.417), showing particular strength with Tangail, Cumilla, and Narsingdi dialects.
 
 2. **Regional Variations**: Performance varied significantly across regions:
