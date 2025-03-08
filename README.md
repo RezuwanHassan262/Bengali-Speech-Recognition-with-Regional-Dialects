@@ -182,7 +182,7 @@ These metrics confirm that while our dataset captures authentic dialectal speech
  <h2 style=color:#fe5e21;>Modeling</h2>
 
 
-I finetuned another OpenAI's Whisper model using another advanced checkpoint from [Kaggle](https://www.kaggle.com/competitions/ben10) which is referred to as **PX12**. I then uploaded the model weights on [Hugging Face](https://huggingface.co/Rezuwan/regional_asr_weights) and deployed the model using those weights on [HuggingFace Space](https://huggingface.co/spaces/Rezuwan/Regional_Speech_ASR). Other team members later finetuned different models on different settings but PX12 outperformed them all. The details of the performance are shown below in the benchmarking section.
+I finetuned another OpenAI's Whisper model using another advanced checkpoint from [Kaggle](https://www.kaggle.com/competitions/ben10) which is referred to as **PX12**. I then uploaded the model weights on [Hugging Face](https://huggingface.co/Rezuwan/regional_asr_weights) and deployed the model using those weights on [HuggingFace Space](https://huggingface.co/spaces/Rezuwan/Regional_Speech_ASR). Other team members later finetuned different models on different settings such as A Wav2Vec 2.0 Large model with a Character Gram Langage Model as a decoder (W2V2LM) and one default Whisper medium and a default Wav2Vec 2.0 Large but my PX12 outperformed them all. The details of the performance are shown below in the benchmarking section.
 
 
 
