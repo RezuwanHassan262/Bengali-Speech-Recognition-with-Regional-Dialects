@@ -24,7 +24,7 @@
 
 This is an ongoing project and this dataset checkpoint had speech data from 12 districts, Which are shown below,
 
-<img src="images/bd_data_map_transparent.jpg" alt="District Coverage Map" width="500"/>
+<img src="images/district_map.png" alt="District Coverage Map" width="500"/>
 <p><i>Map showing the districts covered in the Regional-Speech dataset</i></p>
 
 
@@ -35,10 +35,11 @@ This is an ongoing project and this dataset checkpoint had speech data from 12 d
 
 
 
+
 <table>
   <tr>
-    <td width="50%"><img src="https://github.com/user-attachments/assets/ef286d4f-7dff-4c94-86cd-0476d2d674e9" alt="Topic Distribution" width="100%"/></td>
-    <td width="50%"><img src="https://github.com/user-attachments/assets/cdf2b9df-1537-45ba-b2ae-b3b450ca3e2a" alt="Gender Distribution" width="100%"/></td>
+    <td width="50%"><img src="images/gender.png" alt="Gender Distribution" width="100%"/></td>
+    <td width="50%"><img src="images/topic_pie.png.png" alt="Topic Distribution" width="100%"/></td>
   </tr>
   <tr>
     <td align="center"><i>Gender distribution across the dataset</i></td>
@@ -79,7 +80,7 @@ This is an ongoing project and this dataset checkpoint had speech data from 12 d
 ### Dialectal Variation
 The RegSpeech corpus captures significant linguistic differences across regional dialects, as demonstrated in our analysis:
 
-<img src="https://github.com/user-attachments/assets/9210d4c7-27f8-4b21-baee-dee0d402f4fb" alt="tSNE Visualization of Dialectal Features" width="700"/>
+<img src="images/odd_regional_tSNE.png" alt="tSNE Visualization of Dialectal Features" width="700"/>
 <p><i>t-SNE plot showing distribution of speech features across 12 regional dialects</i></p>
 
 The corpus documents systematic variations in:
@@ -93,7 +94,7 @@ Our analysis reveals that despite geographic proximity, each dialect maintains d
 ### Acoustic Analysis
 Spectral analysis reveals distinctive acoustic patterns across dialects:
 
-<img src="https://github.com/user-attachments/assets/5210b579-588b-4edd-8cb1-c35551d138e5" alt="Long-term Average Spectrum Analysis" width="700"/>
+<img src="images/odd_regional_tSNE.png" alt="Long-term Average Spectrum Analysis" width="700"/>
 <p><i>Long-term average spectrum (LTAS) showing acoustic differences between dialects</i></p>
 
 ### Key findings from acoustic analysis:
@@ -118,15 +119,16 @@ The acoustic analysis confirms that our dataset captures authentic dialectal var
 
  <h2 style=color:#fe5e21;>Audio Characteristics</h2>
 
+"images/total_data_audio_transcript_length corr.png"
 
 ### Recording Distribution
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/3c9be96d-cee5-4635-9e7a-cdb435d82bf8" alt="Audio Length Distribution" width="100%"/>
+      <img src="images/total_data_audio_length dist.png" alt="Audio Length Distribution" width="100%"/>
     </td>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/9dcd470c-634c-433d-88cd-f1270624b9f2" alt="Transcript Length vs Audio Length" width="100%"/>
+      <img src="images/total_data_audio_transcript_length corr.png" alt="Transcript Length vs Audio Length" width="100%"/>
     </td>
   </tr>
   <tr>
