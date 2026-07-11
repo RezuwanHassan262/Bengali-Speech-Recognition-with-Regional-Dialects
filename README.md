@@ -94,7 +94,7 @@ Our analysis reveals that despite geographic proximity, each dialect maintains d
 ### Acoustic Analysis
 Spectral analysis reveals distinctive acoustic patterns across dialects:
 
-<img src="images/odd_regional_tSNE.png" alt="Long-term Average Spectrum Analysis" width="700"/>
+<img src="images/ltas_log.png" alt="Long-term Average Spectrum Analysis" width="700"/>
 <p><i>Long-term average spectrum (LTAS) showing acoustic differences between dialects</i></p>
 
 ### Key findings from acoustic analysis:
@@ -119,7 +119,6 @@ The acoustic analysis confirms that our dataset captures authentic dialectal var
 
  <h2 style=color:#fe5e21;>Audio Characteristics</h2>
 
-"images/total_data_audio_transcript_length corr.png"
 
 ### Recording Distribution
 <table>
@@ -144,27 +143,27 @@ Most recordings in the dataset fall within the 12-18 second range, with none exc
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/63e3b6c4-8352-4258-bfc3-0e850e8f64df" alt="Mean Opinion Score Comparison" width="100%"/>
+      <img src="images/nisqa_figures/Compare_MOS.png" alt="Mean Opinion Score Comparison" width="100%"/>
       <p align="center"><i>Mean Opinion Score</i></p>
     </td>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/cb7aa334-3e11-43ed-991f-267d8777ce86" alt="Discontinuity Comparison" width="100%"/>
+      <img src="images/nisqa_figures/Compare_dis.png" alt="Discontinuity Comparison" width="100%"/>
       <p align="center"><i>Discontinuity</i></p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/7e39b232-ae24-4880-a4d1-d40af4c5abc6" alt="Loudness Comparison" width="100%"/>
+      <img src="images/nisqa_figures/Compare_loud.png" alt="Loudness Comparison" width="100%"/>
       <p align="center"><i>Loudness</i></p>
     </td>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/6b5667b5-f9c9-42b8-a138-63669d8e4ed5" alt="Noisiness Comparison" width="100%"/>
+      <img src="images/nisqa_figures/Compare_noi.png" alt="Noisiness Comparison" width="100%"/>
       <p align="center"><i>Noisiness</i></p>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/user-attachments/assets/ecce6a30-971f-451c-8480-38907c917d22" alt="Coloration Comparison" width="50%"/>
+      <img src="images/nisqa_figures/Compare_col.png" alt="Coloration Comparison" width="50%"/>
       <p align="center"><i>Coloration</i></p>
     </td>
   </tr>
@@ -371,7 +370,7 @@ I finetuned another OpenAI's Whisper model using another advanced checkpoint fro
 
 ### Key Performance Insights
 
-![model performance](https://raw.githubusercontent.com/RezuwanHassan262/Bengali-Speech-Recognition-with-Regional-Dialects/main/images/radar_plots/model_wer_cer.png)
+![model performance](images/radar_plots/model_wer_cer.png)
 
 1. **Best Overall Model**: PX12 achieved the lowest error rates (WER: 0.725, CER: 0.417), showing particular strength with Tangail, Cumilla, and Narsingdi dialects.
 
@@ -397,4 +396,4 @@ I finetuned another OpenAI's Whisper model using another advanced checkpoint fro
 
 I uploaded the PX12 model weights on [Hugging Face](https://huggingface.co/Rezuwan/regional_asr_weights) and deployed the model using those weights on [HuggingFace Space](https://huggingface.co/spaces/Rezuwan/Regional_Speech_ASR).
 
-![ASR HF space screenshot](https://raw.githubusercontent.com/RezuwanHassan262/Bengali-Speech-Recognition-with-Regional-Dialects/main/images/hf_screenshot.jpg)
+![ASR HF space screenshot](images/hf_screenshot.jpg)
