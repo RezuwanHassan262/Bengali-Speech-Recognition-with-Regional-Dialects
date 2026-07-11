@@ -24,7 +24,7 @@
 
 This is an ongoing project and this dataset checkpoint had speech data from 12 districts, Which are shown below,
 
-<img src="https://github.com/user-attachments/assets/2f64606d-ebae-4dfc-beb0-740bb2d32b82" alt="District Coverage Map" width="500"/>
+<img src="images/bd_data_map_transparent.jpg" alt="District Coverage Map" width="500"/>
 <p><i>Map showing the districts covered in the Regional-Speech dataset</i></p>
 
 
